@@ -1,2 +1,2 @@
 # gimnasio
-Desarrollo de una aplicacion web dedicada a 
+Desarrollo de una aplicación web dedicada a las membresías de un gimnasio.
