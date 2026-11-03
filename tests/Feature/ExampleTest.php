@@ -8,12 +8,12 @@ use Tests\TestCase;
 class ExampleTest extends TestCase
 {
     /**
-     * A basic test example.
+     * Sin sesión, el panel redirige al login (RF1).
      */
-    public function test_the_application_returns_a_successful_response(): void
+    public function test_sin_sesion_redirige_al_login(): void
     {
         $response = $this->get('/');
 
-        $response->assertStatus(200);
+        $response->assertRedirect('/login');
     }
 }
